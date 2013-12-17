@@ -1,0 +1,140 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	}
+banner {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: black;
+	color: white;
+	width: 100%;
+	padding-left: 10px;
+	font-weight: bold;
+	z-index: 1;
+	}
+body {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Handlee;
+	font-size: 1.5em;
+	}
+h1 {
+	color: #6FA8DC;
+	font-size: 1.75em;
+	}
+h2 {
+	color: #6FA8DC;
+	font-size: 1.5em;
+	}
+h3 {
+	color:#6FA8DC;
+	font-size: 1.25em;
+	}
+#nav li, social_list li {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	}
+cv ul, #sectionbody {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+main_logo img {
+	float: left;
+	max-width: 70%;
+	margin-top: 20px;
+	margin-left: -15px;
+	}
+social_list img {
+	max-width: 5%;
+	float: right;
+	list-style-type: none;
+	text-align: right;
+	padding-left: 5px;
+	background:none;
+	border:0;
+	margin-top:0;
+	margin-top: 30px;
+	}
+nav a:link {
+	text-decoration: none;
+	font-size: 1.25em;
+	color: black;
+	}
+a {
+	color: black;
+	text-decoration: none;
+	}
+a.active {
+	font-weight: bold;
+	}
+.after {
+	clear: left;
+	text-align: center;
+	}
+blockquote {
+	opacity: .80;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	padding-left: 15px;
+	border-left: 3px solid #707070;
+	}
+#sectionheader {
+	font-family: Calibri;
+	color: black;
+	font-size: .75em;
+	font-weight: bold;
+	border-bottom: 2px solid black;
+	}
+#sectionbody {
+	font-family: Calibri;
+	color: black;
+	font-size: .75em;
+	margin-bottom: 5px;
+	}
+#sectionbody ul {
+	margin-top: 0;
+	}
+table {
+	width: 100%;
+	font-family: Calibri;
+	font-size: .75em;
+	font-weight: 600;
+	}
+.left {
+	text-align: left;
+	}
+.center {
+	text-align: center;
+	}
+.right {
+	text-align: right;
+	}
+.print {
+   color: white;
+   background-color: #6FA8DC;
+   padding-top: 2px;
+   padding-right: 2px;
+   padding-left: 2px;
+   border-color: #37A7ED;
+   -webkit-border-radius: 12px;
+      -moz-border-radius: 12px;
+           border-radius: 12px;
+}
+#nav #currentpage a{
+	color: #6FA8DC;
+	font-weight: bold;
+	}
+#nav ul{
+	border-bottom: 2px solid #6FA8DC;
+	}
+.link {
+	color: #6FA8DC;
+	}
